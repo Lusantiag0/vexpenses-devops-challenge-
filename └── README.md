@@ -35,3 +35,13 @@ O código Terraform cria a seguinte infraestrutura na AWS:
 ### Outras Melhorias
 - Parâmetros como nome do projeto e candidato foram adicionados para facilitar a reutilização do código.
 
+###Principais Alterações
+- Segurança:
+    Alterei a regra do grupo de segurança para permitir SSH apenas de um endereço IP específico.
+  
+- Automação da Instalação do Nginx:
+    Adicionei a seção user_data na instância EC2, que irá instalar e iniciar o Nginx automaticamente ao criar a instância.
+
+- Variáveis de Projeto:
+    Mantive as variáveis projeto e candidato para facilitar a personalização e reutilização do código.
+
