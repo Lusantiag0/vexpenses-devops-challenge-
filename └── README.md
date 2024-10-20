@@ -45,3 +45,18 @@ O código Terraform cria a seguinte infraestrutura na AWS:
 - Variáveis de Projeto:
     Mantive as variáveis projeto e candidato para facilitar a personalização e reutilização do código.
 
+  ## Instruções de Uso
+
+### Pré-requisitos
+- **Conta AWS**: Você precisa de uma conta na AWS com permissões adequadas para criar recursos.
+- **AWS CLI**: Certifique-se de que a AWS Command Line Interface (CLI) esteja instalada e configurada. Você pode seguir [este guia](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) para instalar e configurar.
+- **Terraform**: O Terraform deve estar instalado em sua máquina. Siga as instruções de instalação na [documentação oficial do Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli).
+
+### Passos para Executar
+
+ **Clone o repositório**:
+   ```bash
+   git clone <link-do-repositorio>
+   cd <nome-do-repositorio>
+
+
