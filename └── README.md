@@ -45,7 +45,7 @@ O código Terraform cria a seguinte infraestrutura na AWS:
 - Variáveis de Projeto:
     Mantive as variáveis projeto e candidato para facilitar a personalização e reutilização do código.
 
-  ## Instruções de Uso
+ ## Instruções de Uso
 
 ### Pré-requisitos
 - **Conta AWS**: Você precisa de uma conta na AWS com permissões adequadas para criar recursos.
@@ -54,9 +54,25 @@ O código Terraform cria a seguinte infraestrutura na AWS:
 
 ### Passos para Executar
 
- **Clone o repositório**:
-   ```bash
-   git clone <link-do-repositorio>
-   cd <nome-do-repositorio>
+1. **Clone o repositório**:
+   git clone https://github.com/Lusantiag0/vexpenses-devops-challenge.git
+   cd vexpenses-devops-challenge
+
+2. Inicialize o Terraform:
+    terraform init
+
+3. Verifique o plano de execução:
+   terraform plan
+
+4. Aplique a configuração:
+   terraform apply
+   - Digite yes quando solicitado para confirmar a criação dos recursos.
+
+6. Verifique os recursos criados:
+   - Após a execução bem-sucedida, você pode acessar o console da AWS para visualizar os recursos criados
+  
+7. Para destruir os recursos após o uso:
+   terraform destroy
+   - Novamente, digite yes quando solicitado para confirmar a destruição dos recursos.
 
 
