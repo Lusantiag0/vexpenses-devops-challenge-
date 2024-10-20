@@ -35,7 +35,7 @@ O código Terraform cria a seguinte infraestrutura na AWS:
 ### Outras Melhorias
 - Parâmetros como nome do projeto e candidato foram adicionados para facilitar a reutilização do código.
 
-###Principais Alterações
+### Principais Alterações
 - Segurança:
     Alterei a regra do grupo de segurança para permitir SSH apenas de um endereço IP específico.
   
